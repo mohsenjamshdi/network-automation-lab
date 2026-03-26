@@ -29,6 +29,14 @@ Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
 Used in real-world environments to access and manage legacy routers and switches where upgrading is not immediately possible.
 
+## Personal Experience
+
+In my daily work as a Network Engineer in a service provider environment, I frequently encountered SSH connection issues when accessing older Cisco and Juniper devices.
+
+Modern OpenSSH clients rejected these connections due to deprecated algorithms, which caused delays during troubleshooting and operational tasks.
+
+Since upgrading all legacy devices was not immediately feasible, I implemented this workaround to quickly restore access and continue maintenance activities without disruption.
+
 ## ⚠️ Security Notice
 
 These algorithms are considered insecure and should only be used when absolutely necessary (e.g. legacy systems).
