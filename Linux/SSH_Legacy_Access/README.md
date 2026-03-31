@@ -6,12 +6,13 @@ Modern OpenSSH clients disable older cryptographic algorithms by default (e.g. `
 
 As a result, connections to many legacy network devices (Cisco, Juniper, etc.) fail with errors like:
 
-* "no matching key exchange method"
+* "no matching key exchange method."
 * "no matching host key type"
+* Unable to negotiate with {{destination_host}} port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1
 
 ## Impact
 
-This issue affects a large number of older devices still running in production environments, especially in service provider networks.
+This issue affects a large number of older devices still in production, especially in service provider networks.
 
 ## Solution
 
