@@ -4,4 +4,5 @@ https://swapi.dev/
     We've formatted this data in JSON and exposed it to you in a RESTish implementation that allows you to programmatically collect and measure the data.
 
 https://fakeapi.platzi.com/
-    Fake Store API for your e-commerce or shopping website prototype.
+    The Platzi Fake Store API is a comprehensive development resource designed for projects requiring e-commerce data in JSON format. 
+    Whether you’re building a prototype, learning API integration, or testing frontend applications, this API provides all the essential components: products, users, categories, and authentication systems.
